@@ -120,7 +120,7 @@ let gastosTotales = 0;
 
   gastosTotales += importe;
 
-  resumenDePagosDiv.innerHTML = "<h3>La segunda cifra indica lo que se debe pagar realmente, o si es negativa lo que se debe a quien pagó.</h3>";
+  resumenDePagosDiv.innerHTML = "<h3>Resumen de gastos y deudas. Apartado de cuentas</h3>";
 
   const deudaPorUsuario = (gastosTotales / numeroDeUsuarios).toFixed(2);
 
