@@ -1,16 +1,21 @@
 /* Estilos generales del body */
 body {
+    width: 100%;
+    height: 100vh;
     font-family: Arial, sans-serif;
     background-color: #5c5959; /* Fondo suave */
     margin: 0;
     padding: 20px;
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #container {
     max-width: 600px; 
     margin: auto; 
     padding: 20px;
-    background-color: #f1eeee;
+    background-color: #f1eeeec4;
     border-radius: 8px; 
     box-shadow: 0 2px 10px rgba( 0, 0, 0.1); 
 }
