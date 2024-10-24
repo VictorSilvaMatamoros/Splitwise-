@@ -141,7 +141,7 @@ let gastosTotales = 0;
 
     // segun haya pagado mas o menos, se le debera o debera a los demas usuarios
     if (deudaUsuario < 0) {
-      infoUsuario.innerHTML = `${usuarioEnArray}: ha pagado un total de ${saldoUsuario}€ | Debe: ${deudaUsuario}€`;
+      infoUsuario.innerHTML = `${usuarioEnArray}: ha pagado un total de ${saldoUsuario}€ | Debe: ${Math.abs(deudaUsuario)}€`;
     } else if (deudaUsuario > 0) {
       infoUsuario.innerHTML = `${usuarioEnArray}: ha pagado un total de ${saldoUsuario}€ | Se le debe: ${deudaUsuario}€`;
     } else {
